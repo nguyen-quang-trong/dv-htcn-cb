@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    font-family: Arial;
+}
+#header{
+    background-color: #39e4c2;
+    border: 1px solid #39e4c2;
+    padding: 20px;
+    text-align: center;
+}
