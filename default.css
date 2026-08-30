@@ -1,32 +1,16 @@
 body{
-    margin: 0px;
     font-family: Arial;
-    border-top: 10px solid white;
-    border-left: 100px solid white;
-    border-right: 100px solid white;;
-    padding: 10px;
+    font-size:30px;
+    margin: 30px;
+    text-align: justify;
 }
 #header{
-    /* background-color: #39e4c2; */
-    border: 1px solid black;
-    /* padding: 20px; */
-    text-align: center;
-}
-#lienhe{
     background-color: #39e4c2;
-    border-top: 10px solid white;
-    padding: 10px;
-    /* text-align: center; */
-}
-#danhmuc{
-    border-top: 10px solid white;
-    /* width:100% */
-}
-#danhmuc .ten{
-    box-sizing: border-box;
     border: 1px solid black;
-    padding:10px;
-    float:left;
-    width: 33.33%;
     text-align: center;
+}
+@media (max-width:600px){
+    body{
+        font-size: 20px;
+    }
 }
